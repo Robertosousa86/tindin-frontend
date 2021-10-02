@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  display: flex;
+  background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080);
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#image {
+  width: 200px;
+  height: 200px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card {
+  background: #fff;
+  padding: 40px;
+  width: 300px;
+  border-radius: 20px;
+  margin: 30px 0;
+}
+
+h1,
+h3,
+p {
+  text-align: center;
+}
+
+ul {
+  cursor: pointer;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+ul li a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-indent: 45px;
+  position: relative;
+  border: solid 1px #4ec9f8;
+}
+
+ul li a:before {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  font-size: 25px;
+  text-indent: 0;
+  color: #000;
+}
